@@ -4,3 +4,4 @@ best downloader app for slides
 https://slidesharedown.com/
 https://thecourtdirect.com/
 https://ranksapk.com/
+https://luckyshortcuts.com/
