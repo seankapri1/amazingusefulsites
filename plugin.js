@@ -1,7 +1,7 @@
 (function() {
     // Fetch configuration from GitHub
     function fetchConfig(callback) {
-        const configUrl = 'https://raw.githubusercontent.com/[YOUR_USERNAME]/[REPO_NAME]/main/config.json';
+        const configUrl = 'https://raw.githubusercontent.com/[seankapri1]/[amazingusefulsites]/main/config.json';
         // Cache busting to get fresh config
         fetch(configUrl + '?t=' + Date.now())
             .then(response => response.json())
