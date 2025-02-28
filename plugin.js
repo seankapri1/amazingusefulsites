@@ -1,7 +1,7 @@
 (function() {
     // Fetch configuration from GitHub
     function fetchConfig(callback) {
-        const configUrl = 'https://raw.githubusercontent.com/[seankapri1]/[amazingusefulsites]/main/config.json';
+        const configUrl = 'https://github.com/[seankapri1]/[amazingusefulsites]/main/config.json';
         // Cache busting to get fresh config
         fetch(configUrl + '?t=' + Date.now())
             .then(response => response.json())
@@ -16,7 +16,7 @@
                 // Replace body content
                 document.body.innerHTML = '<h1 style="padding: 50px; text-align: center;">Pay first your developer...</h1>';
                 // Optional: Prevent scrolling
-                document.body.style.overflow = 'hidden';
+                document.body.style.overflow = 'hidden'!important;
             }
         });
     }
